@@ -1,16 +1,22 @@
 {
   "name": "webpack",
   "version": "1.0.0",
+  "private": true,
   "description": "Webpack starter, based on Colt Steele's tutorial",
   "main": "indexs.js",
   "repository": "https://github.com/SprintWithCarlos/webpack.git",
   "author": "Carlos Marchena <sprintwithcarlos@pm.me>",
   "license": "MIT",
+  "scripts": {
+    "start": "webpack"
+  },
   "devDependencies": {
     "eslint": "^5.15.3",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-plugin-import": "^2.16.0",
     "eslint-plugin-jsx-a11y": "^6.2.1",
-    "eslint-plugin-react": "^7.12.4"
+    "eslint-plugin-react": "^7.12.4",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
   }
 }

@@ -5,12 +5,12 @@ const run = (alertService, componentService) => {
   componentService.onClick(() => {
     alertService.hideErrors();
     const inputs = componentService.getInputs();
-    const parsedInputs = parsedInputs(...inputs);
+    const parsedInputs = parseInputs(...inputs);
     if (inputsAreValid(...parsedInputs)) {
       const [numA, numB] = parsedInputs;
       componentService.setResults(numA + numB);
     } else {
-      componentService.setResult("");
+      componentService.setResult('');
       alertService.handleAdditionError(inputs, parsedInputs);
     }
   });
