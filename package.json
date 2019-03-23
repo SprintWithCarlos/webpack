@@ -8,7 +8,7 @@
   "author": "Carlos Marchena <sprintwithcarlos@pm.me>",
   "license": "MIT",
   "scripts": {
-    "start": "webpack"
+    "start": "webpack --config webpack.config.js"
   },
   "devDependencies": {
     "eslint": "^5.15.3",

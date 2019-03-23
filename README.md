@@ -16,7 +16,7 @@
 
 ## Lesson 4
 
-[Configuring Webpack]()
+[Configuring Webpack](https://www.youtube.com/watch?v=ZwWiDZoPMB0&index=4&list=PLblA84xge2_zwxh3XJqy6UVxS60YdusY8)
 
 ## Lesson 5
 
